@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="paper">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#f6f1e5">
+<meta name="description" content="论语二十篇数字阅读馆 · 原典与现代译文逐条相接，轻触揭晓。以仁、义、礼、智、信，照见日常生活与现代思考。">
+<meta property="og:title" content="论语 · 温故知新">
+<meta property="og:description" content="二十篇经典，循原文而读，因自省而明。">
+<meta property="og:image" content="./assets/og-cover.svg">
+<link rel="icon" type="image/svg+xml" href="./assets/favicon.svg">
+<link rel="stylesheet" href="./styles.css">
+<title>论语 · 温故知新 | The Analects</title>
+</head>
+<body>
+<a class="skip" href="#reader">跳至阅读正文</a>
+<div id="scroll-progress" class="scroll-progress" aria-hidden="true"></div>
+<header class="site-header" id="top">
+ <a href="#top" class="logo" aria-label="返回论语首页"><span class="logo-mark">儒</span><span class="logo-type">论语<small>THE ANALECTS</small></span></a>
+ <nav class="desktop-nav" aria-label="站点导航"><a href="#thoughts">思想</a><a href="#catalogue">二十篇</a><a href="#reader">静读</a></nav>
+ <div class="nav-actions"><button id="theme-toggle" class="theme-toggle" type="button" aria-label="切换深浅主题"><span aria-hidden="true">◑</span></button><a href="https://github.com/1998x-stack/TheAnalects" target="_blank" rel="noopener noreferrer" class="source-link">GITHUB ↗</a></div>
+</header>
+<main>
+ <section class="hero" aria-labelledby="hero-title">
+  <div class="hero-grain" aria-hidden="true"></div>
+  <div class="hero-art" aria-hidden="true"><div class="red-sun"></div><div class="bamboo bamboo-1"></div><div class="bamboo bamboo-2"></div><div class="bamboo bamboo-3"></div><div class="bamboo bamboo-4"></div><div class="haze haze-1"></div><div class="haze haze-2"></div><div class="ink-landscape"></div><div class="hero-vertical">学而不厌 · 诲人不倦</div></div>
+  <div class="hero-main">
+   <div class="eyebrow"><span class="eyebrow-line"></span> 先秦儒家经典 · 二十篇 <span class="eyebrow-en">A TIMELESS CONVERSATION</span></div>
+   <p class="hero-en">THE ANALECTS OF CONFUCIUS</p>
+   <h1 id="hero-title"><span>论</span><span class="accent">语</span><i>。</i></h1>
+   <p class="hero-quote">学而时习之，不亦说乎？<br>有朋自远方来，不亦乐乎？</p>
+   <p class="hero-description">二十篇古典对话，一条一条，循序而读。<br>先听古人之言，再轻触，见当代之解。</p>
+   <div class="hero-links"><a class="cta" href="#reader">翻开论语 <span>↗</span></a><a class="quiet-link" href="#catalogue">浏览二十篇 ↓</a></div>
+  </div>
+  <div class="hero-foot"><span>原典 / 阅读 / 反思</span><span>仁 · 义 · 礼 · 智 · 信</span><span>SCROLL TO DISCOVER ↓</span></div>
+ </section>
+ <section class="section thoughts wrap" id="thoughts">
+  <div class="eyebrow section-eyebrow appear">01 / THE ESSENCE</div>
+  <h2 class="section-title appear">仁者爱人，<br><em>学而不已。</em></h2>
+  <p class="section-intro appear">《论语》并非只有格言。它是关于学习、友谊、自省、教育、责任与公共生活的持续对话。每一次阅读，都可以从自己当下的问题出发。</p>
+  <div class="ideas">
+   <article class="idea appear"><div class="idea-head">01 / REN · 仁</div><div class="idea-word">仁</div><h3>由己及人</h3><p>从克制自我与关怀他人出发，辨认善意、界限与责任。</p><a href="#catalogue">从《颜渊》读起 ↗</a></article>
+   <article class="idea appear"><div class="idea-head">02 / XUE · 学</div><div class="idea-word">学</div><h3>学而时习</h3><p>学习不是只记住知识，还要反思、实践、辨别与更新。</p><a href="#catalogue">从《学而》读起 ↗</a></article>
+   <article class="idea appear"><div class="idea-head">03 / LI · 礼</div><div class="idea-word">礼</div><h3>和而不同</h3><p>理解关系中的尊重与差异：求和谐，而不抹平彼此。</p><a href="#catalogue">从《子路》读起 ↗</a></article>
+  </div>
+ </section>
+ <section class="interlude" aria-labelledby="interlude-title">
+  <div class="interlude-content appear"><p class="eyebrow">A MOMENT OF REFLECTION · 为政篇</p><h2 id="interlude-title">温故而知新，<br><em>可以为师矣。</em></h2><p>往复其所学，更新其所知；每读一遍，意义便有所不同。</p></div>
+ </section>
+ <section class="section catalogue wrap" id="catalogue">
+  <div class="eyebrow appear">02 / TWENTY BOOKS</div><h2 class="section-title appear">廿篇可读，<br><em>一句入心。</em></h2>
+  <p class="section-intro appear">阅读数据按通行二十篇排列。每条原文紧接其配对译文，译意默认隐藏；译文取自署名的开源资料，标点句界仍待逐条校勘。</p>
+  <div class="search-panel"><label class="search-field"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="检索原文、译文、篇名与主题…" autocomplete="off" aria-label="全文检索《论语》"><kbd>/</kbd></label><div class="quick-filters" role="group" aria-label="快捷筛选"><button class="quick active" type="button" data-query="">全部</button><button class="quick" type="button" data-query="仁">仁</button><button class="quick" type="button" data-query="学">学</button><button class="quick" type="button" data-query="礼">礼</button><button class="quick" type="button" data-query="君子">君子</button></div></div>
+  <div class="catalogue-stats"><span id="search-count" role="status" aria-live="polite">20 / 20 篇</span><span>按篇探索 · 按句思考</span></div>
+  <div class="chapter-grid" id="chapter-grid"></div><p class="empty" id="no-results" hidden>未找到对应篇章。试试其他关键词。</p>
+ </section>
+ <section class="reader-section" id="reader">
+  <div class="wrap reader-wrap">
+   <div class="eyebrow">03 / THE READING ROOM</div><h2 class="section-title reader-heading">一句一读，<br><em>一义一得。</em></h2>
+   <p class="section-intro">原文在上，白话译文在下。每条译文初始遮挡，点击后才展开；若原典与译文的句读无法可靠自动细分，则保留整条对应语录，不假装逐字校勘。</p>
+   <div class="reader-layout">
+    <aside class="chapter-aside"><div class="aside-title"><span>二十篇目</span><span id="nav-position">01 / 20</span></div><nav id="chapter-nav" class="chapter-nav" aria-label="论语二十篇导航"></nav><div class="aside-note">读古之言，察今之事。<br>引经贵在求真，不在求多。</div></aside>
+    <div class="reading-content">
+     <div class="reader-tools"><div class="reader-tools-left"><span>先思原典 · 轻触见译</span><span id="reveal-count" role="status" aria-live="polite">已读 0 / 0 条</span></div><div class="reader-tools-right"><button type="button" id="collapse-all">收起全部</button><button type="button" id="font-minus" aria-label="减小字号">A−</button><button type="button" id="font-plus" aria-label="增大字号">A＋</button></div></div>
+     <div class="chapter-intro"><div class="chapter-kicker" id="book-kicker">第一篇 · 修身</div><h3 id="book-title">学而篇</h3><p id="book-description"></p><span class="large-number" id="chapter-watermark" aria-hidden="true">壹</span></div>
+     <div class="reading-key"><span>CLASSICAL TEXT / MODERN INTERPRETATION</span><span>点击逐条揭晓</span></div>
+     <div class="reading-lines" id="reading-lines" role="list" aria-label="原文与逐条隐藏的白话译文"></div>
+     <div class="readout"><span id="unit-count"></span><div><button type="button" id="bookmark" aria-pressed="false">☆ 收藏此篇</button><button type="button" id="copy-url">↗ 复制链接</button></div></div>
+     <div class="pager"><button type="button" id="prev-book"><span>← 上一篇</span><strong id="prev-name">前篇</strong></button><button type="button" id="next-book"><span>下一篇 →</span><strong id="next-name">后篇</strong></button></div>
+     <div class="data-note"><strong>关于原典与译文</strong><p>此站按通行二十篇排序；引用开源语料包含616个原译配对记录，不等于《论语》任何一种权威分章数量。能按标点可靠细分的原译会拆为较短的阅读卡，无法可靠细分的保留配对原样。白话译文和古文版本均需持续复核。</p><a href="https://github.com/1998x-stack/TheAnalects/blob/main/THIRD-PARTY-NOTICES.md" target="_blank" rel="noopener noreferrer">查看原文、译文来源和许可 ↗</a></div>
+    </div>
+   </div>
+  </div>
+ </section>
+</main>
+<footer class="site-footer"><div class="footer-head"><div class="footer-emblem">仁</div><div><strong>温故知新，<br>学无止境。</strong><p>论语数字阅读馆 · The Analects Reading Room</p></div></div><div class="footer-bottom"><span>AN OPEN CLASSICAL READING PROJECT · 2026</span><div><a href="https://github.com/1998x-stack/TheAnalects">GitHub ↗</a><a href="https://github.com/1998x-stack/TheAnalects/tree/main/docs">文档 ↗</a><a href="#top">返回顶部 ↑</a></div></div></footer>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<script type="module" src="./app.js"></script>
+</body>
+</html>
