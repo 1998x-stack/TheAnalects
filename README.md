@@ -4,9 +4,9 @@
 
 一座采用**竹影、朱砂、宣纸**美学的《论语》数字阅读馆，也是一项可在 Codex / OpenCode 中直接调用的儒家智慧 Skill 项目。
 
-[**阅读网站（预定地址）**](https://1998x-stack.github.io/TheAnalects/) · [**SKILL.md**](./SKILL.md) · [**文档中心**](./docs/README.md) · [**GitHub Actions**](https://github.com/1998x-stack/TheAnalects/actions)
+[**阅读网站（Pages已部署）**](https://1998x-stack.github.io/TheAnalects/) · [**SKILL.md**](./SKILL.md) · [**文档中心**](./docs/README.md) · [**GitHub Actions**](https://github.com/1998x-stack/TheAnalects/actions)
 
-> 新仓库首次发布可能需要在 Settings → Pages 中启用 GitHub Actions。以部署工作流成功和公开浏览器真实可访问为准。
+> GitHub Pages 发布工作流已成功；尚未独立完成真实浏览器的跨设备与辅助技术验收。
 
 ## 功能与数据
 

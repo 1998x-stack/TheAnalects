@@ -140,7 +140,8 @@ function goToBook(n,scroll){
  state.chapter=n;
  renderChapter();
  history.replaceState(null,"","#chapter-"+n);
- if(scroll)$("reader").scrollIntoView({behavior:reducedMotion()?"instant":"smooth",block:"start"});
+ const destination=scroll?$("reader"):$("book-kicker");
+ destination.scrollIntoView({behavior:reducedMotion()?"auto":"smooth",block:"start"});
 }
 $("search").addEventListener("input",e=>{
  state.search=e.target.value;
@@ -207,4 +208,4 @@ if("IntersectionObserver" in window){
 renderCatalogue();
 renderChapter();
 updateScroll();
-if(valid(hashNumber()))requestAnimationFrame(()=>$("reader").scrollIntoView({behavior:"instant"}));
+if(valid(hashNumber()))requestAnimationFrame(()=>$("reader").scrollIntoView({behavior:"auto"}));

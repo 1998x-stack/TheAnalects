@@ -8,8 +8,9 @@
 - [x] 宣纸竹影主视觉、章节目录、搜索、书签、字体和深浅主题
 - [x] Skill、Codex/OpenCode标准发现入口、中文README与文档
 - [x] GitHub Actions CI、Pages工作流与静态构建
-- [ ] CI成功与具体部署运行验收
-- [ ] 公开Pages在浏览器内的完整访问验证
+- [x] GitHub Actions CI 测试通过（2026-10-27）
+- [x] GitHub Pages 部署工作流通过（2026-10-27）
+- [ ] 公开站点在真实浏览器中的视觉、键盘与完整交互验收
 
 ## Stage 1 · 阅读和教学体验
 
